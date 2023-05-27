@@ -17,7 +17,7 @@ Para superar as limitações da busca em profundidade e da busca em largura, o a
 
 # Exemplo de problema
 
-![Exemplo 8-Puzzle](.\images\exemplo_8-puzzle.png)
+![Exemplo 8-Puzzle](images/exemplo_8-puzzle.png)
 
 O problema do **8 puzzle** é um quebra-cabeça deslizante que envolve um tabuleiro de 3x3 com oito peças numeradas de 1 a 8, além de um espaço vazio. O objetivo é chegar a uma configuração específica do tabuleiro, geralmente representada como o estado final, a partir de uma configuração inicial dada.
 
