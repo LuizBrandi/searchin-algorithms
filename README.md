@@ -25,6 +25,29 @@ O desafio para resolver o problema do 8 puzzle está em encontrar uma sequência
 
 O problema do 8 puzzle é considerado um exemplo clássico de um problema de busca e é frequentemente usado como um caso de estudo para algoritmos de busca em Inteligência Artificial. Através da aplicação de algoritmos de busca sem informação, podemos encontrar soluções para esse quebra-cabeça desafiador, analisando o espaço de busca e explorando diferentes caminhos possíveis.
 
+Segue uma possível formulação para o problema:
+- **Estados:** Uma descrição de estado especifica a posição de cada uma das oito peças e do
+quadrado vazio em um dos nove quadrados.
+- **Estado inicial:** Qualquer estado pode ser designado como o estado inicial. Observe que
+qualquer objetivo específico pode ser alcançado a partir de exatamente metade dos estados
+iniciais possíveis (Exercício 3.4).
+- **Ações:** A formulação mais simples define as ações como movimentos do quadrado vazio
+*Esquerda, Direita, Para Cima ou Para Baixo*. Pode haver subconjuntos diferentes desses,
+dependendo de onde estiver o quadrado vazio.
+- **Modelo de transição:** Dado um estado e ação, ele devolve o estado resultante; por exemplo, se
+aplicarmos Esquerda para o estado inicial na Figura 3.4, o estado resultante terá comutado o 5 e
+o branco.
+- **Teste de objetivo:** Verifica se o estado corresponde à configuração de estado objetivo mostrada
+na Figura 3.4 (são possíveis outras configurações de objetivos).
+- **Custo de caminho:** Cada passo custa 1 e,assim, o custo do caminho é o número de passos do
+caminho.
+
+### Referências
+*Norvig, P., Russell, S. (2021). Artificial Intelligence: A Modern Approach (3rd ed.). Pearson.*
+
+
+
+
 
 
 
